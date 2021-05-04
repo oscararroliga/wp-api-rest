@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+
+a{
+    color: turquoise !important;
+    transition: all .3s ease-out;
+}
+a:hover{
+    opacity: .75;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+
+hr{
+    border: thin solid tomato;
+    margin: 3rem auto;
+    width: 80%;
+}
+
+.site{
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 50%;
+    text-align: center;
+}
+
+.post{
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: .5rem;
+    max-width: 80%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.into{
+    text-decoration: none;
+}
+.post-date{
+    margin: 1rem auto;
+    display: block;
+}
+
+.post-content summary{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.post-categories{
+    text-align: center;
+    display: block;
+    list-style: none;
+}
