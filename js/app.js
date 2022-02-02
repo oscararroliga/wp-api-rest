@@ -4,7 +4,7 @@
     $loader = d.querySelector(".loader"),
     $template = d.getElementById("post-template").content,
     $fragment = d.createDocumentFragment(),
-    DOMAIN = "https://mercadoclic.net/",
+    DOMAIN = "https://www.delepesoasuspesos.com",
     SITE = `${DOMAIN}/wp-json`,
     API_WP = `${SITE}/wp/v2`,
     POSTS = `${API_WP}/posts?_embed`,
