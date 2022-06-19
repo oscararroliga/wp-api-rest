@@ -4,7 +4,7 @@
     $loader = d.querySelector(".loader"),
     $template = d.getElementById("post-template").content,
     $fragment = d.createDocumentFragment(),
-    DOMAIN = "https://www.delepesoasuspesos.com",
+    DOMAIN = "https://www.incredibleegg.org",
     SITE = `${DOMAIN}/wp-json`,
     API_WP = `${SITE}/wp/v2`,
     POSTS = `${API_WP}/posts?_embed`,
